@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aguas Dimas — Agua purificada en bidones de 10 y 20 litros | Pide por WhatsApp</title>
+<meta name="description" content="Agua purificada en bidones de 10 y 20 litros: envases y recargas. Pide por WhatsApp y coordinamos entrega o retiro. Cada compra financia los programas de reinserción de la Fundación Dimas.">
+<link rel="canonical" href="https://aguasdimas.com/">
+<meta name="theme-color" content="#0f1e36">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aguasdimas.com/">
+<meta property="og:site_name" content="Aguas Dimas">
+<meta property="og:locale" content="es_CL">
+<meta property="og:title" content="Aguas Dimas — Agua purificada con propósito">
+<meta property="og:description" content="Bidones de 10 y 20 litros, envases y recargas. Pide por WhatsApp. Cada compra financia el trabajo de reinserción de la Fundación Dimas.">
+<meta property="og:image" content="https://aguasdimas.com/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="img/favicon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Mulish:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ============================================================
+     Sprite compartido: logo, ícono WhatsApp, gradiente de agua y
+     recortes de los bidones. Un solo lugar → sin IDs duplicados.
+     ============================================================ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="aguaFill" x1="0" y1="0" x2=".35" y2="1">
+      <stop offset="0" stop-color="#7fd6ec"/>
+      <stop offset=".55" stop-color="#31b4d6"/>
+      <stop offset="1" stop-color="#1c8bab"/>
+    </linearGradient>
+    <!-- cuerpos de los bidones, usados como máscara del agua -->
+    <clipPath id="clip10"><path d="M86 79C86 92 54 94 47 114V228q0 16 18 16h70q18 0 18-16V114c-7-20-39-22-39-35z"/></clipPath>
+    <clipPath id="clip20"><path d="M84 36C84 50 44 52 36 74V244q0 18 20 18h88q20 0 20-18V74c-8-22-48-24-48-38z"/></clipPath>
+
+    <symbol id="logo-drop" viewBox="0 0 100 88">
+      <path d="M50 6c0 0 12 22 12 33a12 12 0 0 1-24 0C38 28 50 6 50 6z" fill="#31b4d6"/>
+      <g fill="none" stroke="currentColor" stroke-linecap="round">
+        <ellipse cx="50" cy="66" rx="15" ry="4.6" stroke-width="3.2"/>
+        <ellipse cx="50" cy="67" rx="27" ry="8.2" stroke-width="2.6" opacity=".72"/>
+        <ellipse cx="50" cy="68" rx="39" ry="12" stroke-width="2.1" opacity=".45"/>
+      </g>
+    </symbol>
+
+    <symbol id="ico-wsp" viewBox="0 0 24 24">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.966 1.164-.198.199-.396.223-.693.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.198-.297-.05-.446.1-.594.149-.149.347-.396.446-.545.099-.148.148-.247.247-.446.099-.198.05-.371-.05-.52-.099-.148-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.29.173-1.414-.074-.124-.272-.198-.57-.347M12.05 21.785h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- ===== NAV ===== -->
+<nav class="nav">
+  <a class="nav__brand" href="#top" aria-label="Aguas Dimas — inicio">
+    <svg viewBox="0 0 100 88" aria-hidden="true"><use href="#logo-drop"/></svg>
+    <span>Aguas Dimas<small>por Fundación Dimas</small></span>
+  </a>
+  <div class="nav__links">
+    <a href="#productos">Productos</a>
+    <a href="#como-funciona">Cómo pedir</a>
+    <a href="#proposito">Propósito</a>
+    <!-- Link general de WhatsApp: "Hola, quiero hacer un pedido de Aguas Dimas." -->
+    <a class="btn btn--wsp" href="https://wa.me/56953004450?text=Hola%2C%20quiero%20hacer%20un%20pedido%20de%20Aguas%20Dimas." target="_blank" rel="noopener">
+      <svg aria-hidden="true"><use href="#ico-wsp"/></svg> Pedir por WhatsApp
+    </a>
+  </div>
+  <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+</nav>
+
+<!-- ===== HERO ===== -->
+<header class="hero" id="top">
+  <div class="hero__glow"></div>
+  <span class="bubble b1"></span><span class="bubble b2"></span><span class="bubble b3"></span>
+  <div class="container hero__inner grid two">
+    <div>
+      <p class="eyebrow" style="color:var(--teal)">Aguas purificadas · Fundación Dimas</p>
+      <h1 class="reveal">Agua purificada,<br><em>con propósito</em></h1>
+      <p class="hero__tag reveal d1">Cada bidón financia una segunda oportunidad.</p>
+      <p class="hero__lead reveal d2">Bidones de 10 y 20 litros, envases nuevos y recargas. Eliges tu formato, nos escribes por WhatsApp y coordinamos la entrega o el retiro.</p>
+      <div class="hero__cta reveal d3">
+        <a class="btn btn--wsp btn--lg" href="https://wa.me/56953004450?text=Hola%2C%20quiero%20hacer%20un%20pedido%20de%20Aguas%20Dimas." target="_blank" rel="noopener">
+          <svg aria-hidden="true"><use href="#ico-wsp"/></svg> Pedir por WhatsApp
+        </a>
+        <a class="btn btn--light btn--lg" href="#productos">Ver productos</a>
+      </div>
+      <div class="hero__pills reveal d4">
+        <span><b>·</b>10 y 20 litros</span>
+        <span><b>·</b>Envase y recarga</span>
+        <span><b>·</b>Pedido por WhatsApp</span>
+      </div>
+    </div>
+    <div class="hero__art reveal d2">
+      <!-- Bidón 20 L lleno (ilustración) -->
+      <svg viewBox="0 0 200 270" role="img" aria-label="Bidón de agua purificada de 20 litros">
+        <rect x="80" y="6" width="40" height="20" rx="5" fill="#7fd6ec"/>
+        <rect x="84" y="24" width="32" height="13" fill="#7fd6ec" opacity=".85"/>
+        <g clip-path="url(#clip20)">
+          <path d="M0 88q20-10 40 0t40 0 40 0 40 0 40 0V270H0z" fill="url(#aguaFill)"/>
+          <g fill="#fff" opacity=".4">
+            <circle cx="66" cy="152" r="6.5"/><circle cx="126" cy="188" r="5"/>
+            <circle cx="88" cy="220" r="3.8"/><circle cx="134" cy="118" r="3.2"/>
+            <circle cx="54" cy="200" r="2.8"/>
+          </g>
+          <path d="M46 66h17v190H46z" fill="#fff" opacity=".24"/>
+          <g stroke="#fff" stroke-width="2.4" opacity=".22" stroke-linecap="round">
+            <path d="M40 202h120M40 226h120M40 250h120"/>
+          </g>
+        </g>
+        <path d="M84 36C84 50 44 52 36 74V244q0 18 20 18h88q20 0 20-18V74c-8-22-48-24-48-38z" fill="none" stroke="#7fd6ec" stroke-width="3.5"/>
+        <rect x="52" y="126" width="96" height="44" rx="9" fill="#fffdf8" opacity=".96"/>
+        <text x="100" y="158" text-anchor="middle" font-family="Fraunces,Georgia,serif" font-size="27" font-weight="600" fill="#1c8bab">20 L</text>
+      </svg>
+    </div>
+  </div>
+  <svg class="wave" viewBox="0 0 1440 110" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 62c180-38 360 26 540 26s360-58 540-58 300 34 360 46v34H0z" fill="currentColor"/>
+  </svg>
+</header>
+
+<!-- ===== PRODUCTOS =====
+     Para cambiar el mensaje de un botón: encodeURIComponent('tu texto')
+     en la consola del navegador y anteponer https://wa.me/56953004450?text=
+     Las ilustraciones son provisorias: al tener fotos reales, reemplazar el
+     <svg> de cada .card__media por <img src="img/…" alt="…">.
+-->
+<section class="section-pad" id="productos">
+  <div class="container">
+    <div class="section-head reveal" style="margin-bottom:clamp(30px,4vw,52px)">
+      <p class="eyebrow">Productos</p>
+      <h2>Elige tu formato</h2>
+      <p class="lead">La primera vez llevas el envase; después solo pides la recarga. Escríbenos y te confirmamos disponibilidad y total.</p>
+    </div>
+
+    <div class="prod-grid">
+
+      <!-- Envase 10 Lts -->
+      <article class="card reveal">
+        <figure class="card__media">
+          <svg viewBox="0 0 200 270" role="img" aria-label="Bidón PET vacío de 10 litros">
+            <rect x="82" y="52" width="36" height="18" rx="4.5" fill="#1c8bab"/>
+            <rect x="86" y="68" width="28" height="12" fill="#1c8bab" opacity=".85"/>
+            <path d="M153 132c20 3 22 16 22 24s-2 21-22 24" fill="none" stroke="#1c8bab" stroke-width="7" stroke-linecap="round"/>
+            <path d="M86 79C86 92 54 94 47 114V228q0 16 18 16h70q18 0 18-16V114c-7-20-39-22-39-35z" fill="#31b4d6" opacity=".09"/>
+            <g clip-path="url(#clip10)">
+              <path d="M56 104h14v142H56z" fill="#fff" opacity=".6"/>
+              <g stroke="#0f1e36" stroke-width="2.2" opacity=".13" stroke-linecap="round">
+                <path d="M42 198h116M42 218h116M42 238h116"/>
+              </g>
+            </g>
+            <path d="M86 79C86 92 54 94 47 114V228q0 16 18 16h70q18 0 18-16V114c-7-20-39-22-39-35z" fill="none" stroke="#1c8bab" stroke-width="3.5"/>
+            <rect x="62" y="150" width="76" height="38" rx="8" fill="#fffdf8" opacity=".95"/>
+            <text x="100" y="178" text-anchor="middle" font-family="Fraunces,Georgia,serif" font-size="23" font-weight="600" fill="#1c8bab">10 L</text>
+          </svg>
+        </figure>
+        <span class="card__tag">Envase</span>
+        <h3>Envase 10 Lts</h3>
+        <p class="card__desc">Bidón PET de 10 litros, sin agua. Tu envase reutilizable para recargar todas las veces que quieras.</p>
+        <p class="price">$2.000 <small>+ IVA</small></p>
+        <a class="btn btn--wsp btn--block" href="https://wa.me/56953004450?text=Hola%2C%20estoy%20interesado%20en%20comprar%20un%20Envase%2010%20Lts%20(bid%C3%B3n%20PET%2C%20sin%20agua)%20de%20Aguas%20Dimas." target="_blank" rel="noopener">
+          <svg aria-hidden="true"><use href="#ico-wsp"/></svg> Comprar por WhatsApp
+        </a>
+      </article>
+
+      <!-- Recarga 10 Lts -->
+      <article class="card reveal d1">
+        <figure class="card__media">
+          <svg viewBox="0 0 200 270" role="img" aria-label="Bidón de 10 litros con agua purificada">
+            <rect x="82" y="52" width="36" height="18" rx="4.5" fill="#1c8bab"/>
+            <rect x="86" y="68" width="28" height="12" fill="#1c8bab" opacity=".85"/>
+            <path d="M153 132c20 3 22 16 22 24s-2 21-22 24" fill="none" stroke="#1c8bab" stroke-width="7" stroke-linecap="round"/>
+            <g clip-path="url(#clip10)">
+              <path d="M0 126q20-9 40 0t40 0 40 0 40 0 40 0V270H0z" fill="url(#aguaFill)"/>
+              <g fill="#fff" opacity=".4">
+                <circle cx="72" cy="172" r="5.4"/><circle cx="124" cy="200" r="4"/>
+                <circle cx="90" cy="226" r="3.2"/><circle cx="118" cy="150" r="2.8"/>
+              </g>
+              <path d="M56 104h14v142H56z" fill="#fff" opacity=".24"/>
+              <g stroke="#fff" stroke-width="2.2" opacity=".2" stroke-linecap="round">
+                <path d="M42 198h116M42 218h116M42 238h116"/>
+              </g>
+            </g>
+            <path d="M86 79C86 92 54 94 47 114V228q0 16 18 16h70q18 0 18-16V114c-7-20-39-22-39-35z" fill="none" stroke="#1c8bab" stroke-width="3.5"/>
+            <rect x="62" y="150" width="76" height="38" rx="8" fill="#fffdf8" opacity=".95"/>
+            <text x="100" y="178" text-anchor="middle" font-family="Fraunces,Georgia,serif" font-size="23" font-weight="600" fill="#1c8bab">10 L</text>
+          </svg>
+        </figure>
+        <span class="card__tag">Recarga</span>
+        <h3>Recarga 10 Lts</h3>
+        <p class="card__desc">Agua purificada en bidón de 10 litros. Traes tu envase y te lo dejamos lleno.</p>
+        <p class="price">$2.000 <small>+ IVA</small></p>
+        <a class="btn btn--wsp btn--block" href="https://wa.me/56953004450?text=Hola%2C%20estoy%20interesado%20en%20comprar%20una%20Recarga%2010%20Lts%20de%20agua%20purificada%20de%20Aguas%20Dimas." target="_blank" rel="noopener">
+          <svg aria-hidden="true"><use href="#ico-wsp"/></svg> Comprar por WhatsApp
+        </a>
+      </article>
+
+      <!-- Envase 20 Lts -->
+      <article class="card reveal d2">
+        <figure class="card__media">
+          <svg viewBox="0 0 200 270" role="img" aria-label="Bidón PET vacío de 20 litros">
+            <rect x="80" y="6" width="40" height="20" rx="5" fill="#1c8bab"/>
+            <rect x="84" y="24" width="32" height="13" fill="#1c8bab" opacity=".85"/>
+            <path d="M84 36C84 50 44 52 36 74V244q0 18 20 18h88q20 0 20-18V74c-8-22-48-24-48-38z" fill="#31b4d6" opacity=".09"/>
+            <g clip-path="url(#clip20)">
+              <path d="M46 66h17v190H46z" fill="#fff" opacity=".6"/>
+              <g stroke="#0f1e36" stroke-width="2.4" opacity=".14" stroke-linecap="round">
+                <path d="M40 202h120M40 226h120M40 250h120"/>
+              </g>
+            </g>
+            <path d="M84 36C84 50 44 52 36 74V244q0 18 20 18h88q20 0 20-18V74c-8-22-48-24-48-38z" fill="none" stroke="#1c8bab" stroke-width="3.5"/>
+            <rect x="52" y="126" width="96" height="44" rx="9" fill="#fffdf8" opacity=".96"/>
+            <text x="100" y="158" text-anchor="middle" font-family="Fraunces,Georgia,serif" font-size="27" font-weight="600" fill="#1c8bab">20 L</text>
+          </svg>
+        </figure>
+        <span class="card__tag">Envase</span>
+        <h3>Envase 20 Lts</h3>
+        <p class="card__desc">Bidón PET de 20 litros, sin agua. El formato clásico de dispensador para la casa o la oficina.</p>
+        <p class="price">$3.000 <small>+ IVA</small></p>
+        <a class="btn btn--wsp btn--block" href="https://wa.me/56953004450?text=Hola%2C%20estoy%20interesado%20en%20comprar%20un%20Envase%2020%20Lts%20(bid%C3%B3n%20PET%2C%20sin%20agua)%20de%20Aguas%20Dimas." target="_blank" rel="noopener">
+          <svg aria-hidden="true"><use href="#ico-wsp"/></svg> Comprar por WhatsApp
+        </a>
+      </article>
+
+      <!-- Recarga 20 Lts (destacada) -->
+      <article class="card card--feat reveal d3">
+        <span class="card__badge">El más pedido</span>
+        <figure class="card__media">
+          <svg viewBox="0 0 200 270" role="img" aria-label="Bidón de 20 litros con agua purificada">
+            <rect x="80" y="6" width="40" height="20" rx="5" fill="#7fd6ec"/>
+            <rect x="84" y="24" width="32" height="13" fill="#7fd6ec" opacity=".85"/>
+            <g clip-path="url(#clip20)">
+              <path d="M0 88q20-10 40 0t40 0 40 0 40 0 40 0V270H0z" fill="url(#aguaFill)"/>
+              <g fill="#fff" opacity=".4">
+                <circle cx="66" cy="152" r="6.5"/><circle cx="126" cy="188" r="5"/>
+                <circle cx="88" cy="220" r="3.8"/><circle cx="134" cy="118" r="3.2"/>
+              </g>
+              <path d="M46 66h17v190H46z" fill="#fff" opacity=".24"/>
+              <g stroke="#fff" stroke-width="2.4" opacity=".22" stroke-linecap="round">
+                <path d="M40 202h120M40 226h120M40 250h120"/>
+              </g>
+            </g>
+            <path d="M84 36C84 50 44 52 36 74V244q0 18 20 18h88q20 0 20-18V74c-8-22-48-24-48-38z" fill="none" stroke="#7fd6ec" stroke-width="3.5"/>
+            <rect x="52" y="126" width="96" height="44" rx="9" fill="#fffdf8" opacity=".96"/>
+            <text x="100" y="158" text-anchor="middle" font-family="Fraunces,Georgia,serif" font-size="27" font-weight="600" fill="#1c8bab">20 L</text>
+          </svg>
+        </figure>
+        <span class="card__tag">Recarga</span>
+        <h3>Recarga 20 Lts</h3>
+        <p class="card__desc">Agua purificada en bidón de 20 litros. El rendimiento por litro más conveniente.</p>
+        <p class="price">$3.000 <small>+ IVA</small></p>
+        <a class="btn btn--wsp btn--block" href="https://wa.me/56953004450?text=Hola%2C%20estoy%20interesado%20en%20comprar%20una%20Recarga%2020%20Lts%20de%20agua%20purificada%20de%20Aguas%20Dimas." target="_blank" rel="noopener">
+          <svg aria-hidden="true"><use href="#ico-wsp"/></svg> Comprar por WhatsApp
+        </a>
+      </article>
+
+    </div>
+    <p class="note reveal">Precios netos, no incluyen IVA. ¿Necesitas varios bidones o abastecer tu empresa? <a href="https://wa.me/56953004450?text=Hola%2C%20quiero%20cotizar%20un%20pedido%20por%20volumen%20de%20Aguas%20Dimas." target="_blank" rel="noopener" style="color:var(--teal-deep);font-weight:800">Cotiza por volumen</a>.</p>
+  </div>
+</section>
+
+<!-- ===== CÓMO PEDIR ===== -->
+<section class="section-pad" id="como-funciona" style="background:var(--mist)">
+  <div class="container">
+    <div class="section-head reveal" style="margin-bottom:clamp(30px,4vw,52px)">
+      <p class="eyebrow">Cómo pedir</p>
+      <h2>Tres pasos, sin carrito</h2>
+      <p class="lead">No necesitas registrarte ni pagar en línea. Todo el pedido se coordina por WhatsApp con una persona real.</p>
+    </div>
+    <div class="steps">
+      <article class="step reveal"><span class="step__bar"></span>
+        <p class="step__n">01</p>
+        <h3>Elige tu formato</h3>
+        <p>10 o 20 litros. Si es tu primera compra necesitas el envase; después solo pides la recarga.</p>
+      </article>
+      <article class="step reveal d1"><span class="step__bar"></span>
+        <p class="step__n">02</p>
+        <h3>Escríbenos por WhatsApp</h3>
+        <p>El botón abre el chat con tu pedido escrito. Te confirmamos disponibilidad y el total. <a href="https://wa.me/56953004450?text=Hola%2C%20quiero%20hacer%20un%20pedido%20de%20Aguas%20Dimas." target="_blank" rel="noopener">Abrir chat</a></p>
+      </article>
+      <article class="step reveal d2"><span class="step__bar"></span>
+        <p class="step__n">03</p>
+        <!-- Contenido por confirmar con la Fundación: zona de cobertura, horarios y dirección de retiro. -->
+        <h3>Entrega o retiro</h3>
+        <p>Coordinamos contigo por el mismo chat si te lo llevamos o lo pasas a retirar.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROPÓSITO ===== -->
+<section class="section-pad band" id="proposito">
+  <div class="sun-blob"></div>
+  <div class="container grid two">
+    <div>
+      <p class="eyebrow reveal" style="color:var(--amber)">El propósito</p>
+      <blockquote class="reveal d1">No vendemos solo agua: cada compra financia trabajo y acompañamiento para personas en proceso de <em>reinserción</em>.</blockquote>
+      <cite class="reveal d2">Fundación Dimas<small>Sálvate para salvarlos</small></cite>
+      <a class="btn btn--light reveal d3" href="https://fundaciondimas.cl" target="_blank" rel="noopener">Conoce la Fundación <span class="arw">→</span></a>
+    </div>
+    <div class="reveal d2">
+      <p class="lead" style="color:rgba(255,255,255,.82)">Aguas Dimas es el proyecto de autosustento de la Fundación Dimas. La venta de agua purificada genera puestos de trabajo reales y financia los programas de reinserción social que la Fundación lleva adelante en Chile.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA FINAL ===== -->
+<section class="section-pad">
+  <div class="cta-final">
+    <div class="glow"></div>
+    <h2 class="reveal">¿Listo para tu primer bidón?</h2>
+    <p class="reveal d1">Escríbenos y lo dejamos coordinado hoy mismo.</p>
+    <a class="btn btn--wsp btn--lg reveal d2" href="https://wa.me/56953004450?text=Hola%2C%20quiero%20hacer%20un%20pedido%20de%20Aguas%20Dimas." target="_blank" rel="noopener">
+      <svg aria-hidden="true"><use href="#ico-wsp"/></svg> Pedir por WhatsApp
+    </a>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand">
+          <svg viewBox="0 0 100 88" style="color:#fff" aria-hidden="true"><use href="#logo-drop"/></svg>
+          <span><b>Aguas Dimas</b><small>Aguas purificadas</small></span>
+        </div>
+        <p style="max-width:38ch">El proyecto de autosustento de la Fundación Dimas. Cada bidón financia una segunda oportunidad.</p>
+      </div>
+      <div>
+        <h4>Sitio</h4>
+        <a href="#productos">Productos</a>
+        <a href="#como-funciona">Cómo pedir</a>
+        <a href="#proposito">Propósito</a>
+        <a href="https://fundaciondimas.cl" target="_blank" rel="noopener">fundaciondimas.cl</a>
+      </div>
+      <div>
+        <h4>Pedidos</h4>
+        <a href="https://wa.me/56953004450?text=Hola%2C%20quiero%20hacer%20un%20pedido%20de%20Aguas%20Dimas." target="_blank" rel="noopener">WhatsApp +56 9 5300 4450</a>
+        <a href="https://wa.me/56953004450?text=Hola%2C%20quiero%20cotizar%20un%20pedido%20por%20volumen%20de%20Aguas%20Dimas." target="_blank" rel="noopener">Cotizar por volumen</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Aguas Dimas · un proyecto de Fundación Dimas</span>
+      <span>Precios netos, no incluyen IVA</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wsp-fab" href="https://wa.me/56953004450?text=Hola%2C%20quiero%20hacer%20un%20pedido%20de%20Aguas%20Dimas." target="_blank" rel="noopener" aria-label="Pedir por WhatsApp">
+  <svg aria-hidden="true"><use href="#ico-wsp"/></svg>
+</a>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"Organization",
+      "@id":"https://aguasdimas.com/#org",
+      "name":"Aguas Dimas",
+      "description":"Agua purificada en bidones de 10 y 20 litros. Proyecto de autosustento de la Fundación Dimas.",
+      "url":"https://aguasdimas.com/",
+      "logo":"https://aguasdimas.com/img/og.jpg",
+      "areaServed":"CL",
+      "parentOrganization":{"@type":"Organization","name":"Fundación Dimas","url":"https://fundaciondimas.cl"},
+      "contactPoint":{"@type":"ContactPoint","contactType":"sales","telephone":"+56953004450","availableLanguage":"es"}
+    },
+    {
+      "@type":"ItemList",
+      "name":"Productos Aguas Dimas",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Envase 10 Lts","description":"Bidón PET de 10 litros, sin agua.","brand":{"@id":"https://aguasdimas.com/#org"},"offers":{"@type":"Offer","price":"2380","priceCurrency":"CLP","availability":"https://schema.org/InStock","priceSpecification":{"@type":"PriceSpecification","price":"2380","priceCurrency":"CLP","valueAddedTaxIncluded":true}}}},
+        {"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Recarga 10 Lts","description":"Agua purificada en bidón de 10 litros.","brand":{"@id":"https://aguasdimas.com/#org"},"offers":{"@type":"Offer","price":"2380","priceCurrency":"CLP","availability":"https://schema.org/InStock","priceSpecification":{"@type":"PriceSpecification","price":"2380","priceCurrency":"CLP","valueAddedTaxIncluded":true}}}},
+        {"@type":"ListItem","position":3,"item":{"@type":"Product","name":"Envase 20 Lts","description":"Bidón PET de 20 litros, sin agua.","brand":{"@id":"https://aguasdimas.com/#org"},"offers":{"@type":"Offer","price":"3570","priceCurrency":"CLP","availability":"https://schema.org/InStock","priceSpecification":{"@type":"PriceSpecification","price":"3570","priceCurrency":"CLP","valueAddedTaxIncluded":true}}}},
+        {"@type":"ListItem","position":4,"item":{"@type":"Product","name":"Recarga 20 Lts","description":"Agua purificada en bidón de 20 litros.","brand":{"@id":"https://aguasdimas.com/#org"},"offers":{"@type":"Offer","price":"3570","priceCurrency":"CLP","availability":"https://schema.org/InStock","priceSpecification":{"@type":"PriceSpecification","price":"3570","priceCurrency":"CLP","valueAddedTaxIncluded":true}}}}
+      ]
+    }
+  ]
+}
+</script>
+<script src="js/main.js"></script>
+</body>
+</html>
