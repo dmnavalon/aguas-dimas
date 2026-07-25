@@ -284,14 +284,6 @@ section{position:relative}
 .footer a:hover{color:var(--teal)}
 .footer__bottom{border-top:1px solid rgba(255,255,255,.12);padding-top:22px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:.82rem;color:rgba(255,255,255,.5)}
 
-/* ============ WhatsApp flotante (móvil) ============ */
-.wsp-fab{position:fixed;right:16px;bottom:16px;z-index:90;width:56px;height:56px;border-radius:50%;
-  background:var(--wsp);color:#0a3b21;display:none;place-items:center;box-shadow:0 12px 30px rgba(18,140,74,.45);
-  transition:transform .3s var(--ease)}
-.wsp-fab svg{width:30px;height:30px;fill:currentColor}
-.wsp-fab:hover{transform:scale(1.07)}
-@media(max-width:980px){.wsp-fab{display:grid}}
-
 /* reveal on scroll — solo se ocultan si hay JS (no-JS = visible) */
 .js .reveal{opacity:0;transform:translateY(26px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
 .js .reveal.in{opacity:1;transform:none}
